@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Yuya Matsushima
 
 RUN apt-get -qq update \
-      && apt-get install -y curl awscli \
+      && apt-get install -y curl git tzdata \
       && curl -sL https://deb.nodesource.com/setup_8.x | bash - \
       && apt-get install -y nodejs
 
