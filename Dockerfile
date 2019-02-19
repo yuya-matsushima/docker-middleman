@@ -1,7 +1,7 @@
-FROM yterajima/ruby:2.5.1
+FROM fillininc/ruby:2.5.3-18.04
 LABEL maintainer="Yuya Matsushima"
 
-ARG NODE_MAJOR_VERSION=8
+ARG NODE_MAJOR_VERSION=10
 ENV APP_DIR /app
 
 RUN apt-get -qq update \
