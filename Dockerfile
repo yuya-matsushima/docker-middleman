@@ -1,4 +1,4 @@
-FROM fillininc/ruby:2.5.3-18.04
+FROM fillininc/ruby:2.6.3-18.04
 LABEL maintainer="Yuya Matsushima"
 
 ARG NODE_MAJOR_VERSION=10
