@@ -1,7 +1,7 @@
-FROM fillininc/ruby:2.6.3-18.04
+FROM fillininc/ruby:2.7.1-20.04
 LABEL maintainer="Yuya Matsushima"
 
-ARG NODE_MAJOR_VERSION=10
+ARG NODE_MAJOR_VERSION=14
 ENV APP_DIR /app
 
 RUN apt-get -qq update \
